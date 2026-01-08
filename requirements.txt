@@ -1,0 +1,14 @@
+# WindowSnap Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+psutil>=5.9.0
+
+# Windows-specific
+pywin32>=305; platform_system=="Windows"
+
+# macOS-specific  
+pyobjc-framework-Quartz>=9.0; platform_system=="Darwin"
+
+# GUI (optional but recommended)
+PyQt5>=5.15.0
