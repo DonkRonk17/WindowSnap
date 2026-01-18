@@ -352,7 +352,12 @@ python windowsnap.py save tomorrow
 
 ---
 
-**Created by Randell Logan Smith & Team Brain**  
-**Part of the Holy Grail Automation Project**  
+## 🙏 Credits
+
+Created by **Randell Logan Smith and Team Brain** at [Metaphy LLC](https://metaphysicsandcomputing.com)
+
+Part of the HMSS (Heavenly Morning Star System) ecosystem.
+
+---  
 
 Enjoy your perfectly organized windows! 🎯
