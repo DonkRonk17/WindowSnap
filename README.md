@@ -352,7 +352,7 @@ python windowsnap.py save tomorrow
 
 ---
 
-**Created by Team Brain**  
+**Created by Randell Logan Smith & Team Brain**  
 **Part of the Holy Grail Automation Project**  
 
 Enjoy your perfectly organized windows! 🎯
