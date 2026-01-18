@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b08948d4-ef49-4c07-9dd2-b3eb9878594d" />
+
 # 🪟 WindowSnap - Smart Window Layout Manager
 
 **Never manually resize windows again!** WindowSnap saves and restores your perfect window layouts with a single click.
@@ -293,6 +295,9 @@ WindowSnap only stores:
 **No sensitive data like window contents, passwords, or personal information is captured.**
 
 ---
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7407e2d7-ec76-42e9-af52-950e3eb41bc1" />
+
 
 ## 🤝 Contributing
 
