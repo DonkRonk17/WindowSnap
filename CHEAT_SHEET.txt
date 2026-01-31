@@ -1,0 +1,64 @@
+================================================================================
+WINDOWSNAP CHEAT SHEET
+================================================================================
+
+QUICK START
+-----------
+pip install pywin32 psutil PyQt5  # Windows
+sudo apt install wmctrl && pip install psutil PyQt5  # Linux
+
+python windowsnap.py save work
+python windowsnap.py restore work
+
+================================================================================
+CLI COMMANDS
+================================================================================
+
+SAVE:     python windowsnap.py save <profile>
+RESTORE:  python windowsnap.py restore <profile>
+LIST:     python windowsnap.py list
+CURRENT:  python windowsnap.py current
+DELETE:   python windowsnap.py delete <profile>
+
+================================================================================
+PYTHON API
+================================================================================
+
+from windowsnap import WindowSnap
+snap = WindowSnap()
+snap.get_all_windows()
+snap.save_layout("name")
+snap.restore_layout("name")
+snap.list_layouts()
+snap.delete_layout("name")
+
+================================================================================
+FILE LOCATIONS
+================================================================================
+
+Windows: C:\Users\<name>\.windowsnap\
+Linux:   ~/.windowsnap/
+macOS:   ~/.windowsnap/
+
+================================================================================
+TEAM BRAIN INTEGRATION
+================================================================================
+
+from windowsnap import WindowSnap
+from agenthealth import AgentHealth
+snap = WindowSnap()
+health = AgentHealth()
+health.log_activity("ATLAS", "layout_switch", {"profile": "work"})
+snap.restore_layout("work")
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+"No windows found"     - Check apps are running
+"Layout not found"     - Run: windowsnap.py list
+"wmctrl not found"     - sudo apt install wmctrl (Linux)
+
+================================================================================
+Built by: ATLAS (Team Brain) | MIT License
+================================================================================
